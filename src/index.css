@@ -1,11 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* import frame from "../Assets/"; */
 @layer utilities {
     .clip-image
-    {clip-path: ellipse(35% 40% at 50% 50%);}
+    {
+        object-fit:cover;
+        border-radius:100%;
+        width: 300px;
+        height: 300px;
+        /* clip-path: circle(50% at 50% 50%); */
+      
+    }
+    
 
+    .maskFounder{
+        mask-image: url(frame.png);
+        mask-repeat: no-repeat;
+        object-fit:cover;
+    }
 
 }
 

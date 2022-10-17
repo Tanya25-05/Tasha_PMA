@@ -10,7 +10,7 @@ import React from 'react'
 import About from './Components/AboutUS/About'
 // import {Link} from "react-router-dom"
 // import logo from ""
-
+import Contact from './Components/ContactUs/Contact'
 
 function App() {
   return (
@@ -44,6 +44,7 @@ function App() {
     <>
     <div className={`bg-white`}>
     <About/>
+    <Contact/>
     </div>
     </>
   )

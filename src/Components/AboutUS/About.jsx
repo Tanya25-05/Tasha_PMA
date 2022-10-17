@@ -5,18 +5,11 @@ import Advisors from "./Advisor";
 import Members from "./Members";
 import FastTrack from "./FastTrack";
 import Footer from "./Footer";
+import Header from "../Header";
 function About() {
   return (
     <div className="font-SegoueUI   ">
-      <div className=" font-bold flex justify-between items-center">
-        <h1
-          className="justify-center text-black 
-       md:text-7xl sm:text-4xl text-2xl md:pl-[150px] pl-[30px] w-2/3"
-        >
-          ABOUT US
-        </h1>
-        <span className="xxs:ml-[10px] ml-[0px] w-full bg-pink h-[70px]"></span>
-      </div>
+      <Header header="About Us" />
 
       {/* About US section */}
 
@@ -46,7 +39,7 @@ function About() {
 
       {/* //our core values */}
 
-      <div className="my-[100px] md:mx-[200px] bg-dimPink rounded-md p-[30px] flex flex-col text-black">
+      <div className="my-[100px] md:mx-[200px] bg-dimPink rounded-md p-[30px] flex flex-col text-black max-w-[1440px] justify-center">
         {/* our core values */}
         <div className=" flex-1 mr-[5px] sm:flex-row xxs:flex-col flex items-center justify-center ">
           <div className="flex justify-center items-center md:w-1/3 my-[30px] py-[40px]">
